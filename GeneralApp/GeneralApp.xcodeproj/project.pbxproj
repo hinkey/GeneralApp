@@ -40,6 +40,8 @@
 		476567861B808A9E00215691 /* GeneralAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4765678B1B808A9E00215691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4765678C1B808A9E00215691 /* GeneralAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralAppTests.m; sourceTree = "<group>"; };
+		476567AB1B808D2300215691 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Foundation/Constants.h; sourceTree = "<group>"; };
+		476567AC1B808D2300215691 /* Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Foundation.h; path = Foundation/Foundation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,8 @@
 		4765676F1B808A9E00215691 /* GeneralApp */ = {
 			isa = PBXGroup;
 			children = (
+				476567A51B808C8900215691 /* Application */,
+				476567971B808B7900215691 /* Foundation */,
 				476567741B808A9E00215691 /* AppDelegate.h */,
 				476567751B808A9E00215691 /* AppDelegate.mm */,
 				476567771B808A9E00215691 /* ViewController.h */,
@@ -117,6 +121,46 @@
 				4765678B1B808A9E00215691 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		476567971B808B7900215691 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				476567AB1B808D2300215691 /* Constants.h */,
+				476567AC1B808D2300215691 /* Foundation.h */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		476567A51B808C8900215691 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				476567A61B808CA000215691 /* Controllers */,
+				476567A71B808CAA00215691 /* Model */,
+				476567A81B808CB400215691 /* View */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		476567A61B808CA000215691 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		476567A71B808CAA00215691 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		476567A81B808CB400215691 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
