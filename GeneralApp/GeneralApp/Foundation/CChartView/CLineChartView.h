@@ -32,7 +32,7 @@
 
 @interface CLineChartView : CChartView
 
-@property (nonatomic, weak) id <CLineChartViewDelegate> chartdelegate;
+@property (nonatomic, assign) id <CLineChartViewDelegate> chartdelegate;
 @property (nonatomic, readonly) NSArray *lines;    // 线 ChartViewLine
 
 // 添加一条线
